@@ -1,19 +1,28 @@
 # VEXO Frontend 🚀
 
 A modern and responsive e-commerce frontend built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
-The project focuses on a clean UI, reusable components, smooth animations, and an optimized user experience.
+The project focuses on a clean UI, reusable components, animations, and an optimized user experience.
+
+## 🌐 Live Website
+
+🚀 Visit the deployed project:
+
+🔗 https://vexo-frontend.vercel.app
+
+---
 
 ## ✨ Features
 
 - ⚡ Built with Next.js
-- 🎨 Modern responsive UI
+- 🎨 Modern and responsive UI
 - 📱 Mobile-friendly design
 - 🧩 Reusable React components
 - 🔥 Smooth scroll animations
-- 🛒 Product showcase sections
-- 🏷️ Brand and category sections
+- 🛒 Featured product sections
+- 🏷️ Brand showcase
+- 📂 Category sections
 - ⭐ Customer testimonials
-- 📩 Newsletter subscription section
+- 📩 Newsletter section
 - ⬆️ Back to top functionality
 - TypeScript support
 
@@ -24,13 +33,11 @@ The project focuses on a clean UI, reusable components, smooth animations, and a
 - **Framework:** Next.js
 - **Language:** TypeScript
 - **Styling:** Tailwind CSS
-- **UI:** React Components
+- **Frontend:** React.js
 - **Package Manager:** npm
+- **Deployment:** Vercel
 
 ---
-
-
-
 
 ## 📂 Project Structure
 
@@ -57,7 +64,8 @@ vexo-frontend/
 │   └── Testimonials.tsx
 │
 ├── public/
-│   └── assets/
+│   ├── images/
+│   └── videos/
 │
 ├── .gitignore
 ├── package.json
@@ -66,6 +74,7 @@ vexo-frontend/
 ├── next.config.ts
 ├── tailwind.config.ts
 └── README.md
+```
 
 ---
 
@@ -75,55 +84,76 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/anirudh657/vexo-frontend.git
+```
 
-Go into project folder:
+Navigate into project:
 
+```bash
 cd vexo-frontend
+```
 
 Install dependencies:
 
+```bash
 npm install
-▶️ Run Development Server
+```
+
+---
+
+## ▶️ Run Development Server
+
+```bash
 npm run dev
+```
 
 Open:
 
+```text
 http://localhost:3000
-📦 Build for Production
+```
+
+---
+
+## 📦 Build For Production
+
+```bash
 npm run build
+```
 
 Start production server:
 
+```bash
 npm start
-🔄 Git Workflow
+```
 
-Update project:
+---
 
+## 🚀 Deployment
+
+Deployed on **Vercel**:
+
+🔗 https://vexo-frontend.vercel.app
+
+---
+
+## 🔄 Git Workflow
+
+```bash
 git add .
-git commit -m "your message"
+git commit -m "your update message"
 git push
-📸 Project Sections
+```
 
-The website includes:
+---
 
-Navbar
-Hero section
-Categories
-Featured products
-Brand showcase
-Features section
-Testimonials
-Newsletter
-Footer
-Back-to-top button
-👨‍💻 Author
+## 👨‍💻 Author
 
-Anirudh Arora
+**Anirudh Arora**
 
 GitHub:
+
 https://github.com/anirudh657
 
+---
+
 ⭐ If you like this project, consider giving it a star!
-
-
-One small fix: in your actual folder you showed `components/Categories.tsx`, not `Categories.ts.tsx`, so change that line if needed.
