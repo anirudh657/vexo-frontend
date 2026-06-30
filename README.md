@@ -32,41 +32,40 @@ The project focuses on a clean UI, reusable components, smooth animations, and a
 ## 📂 Project Structure
 
 
+## 📂 Project Structure
+
+```text
 vexo-frontend/
 │
 ├── app/
-│ ├── favicon.ico
-│ ├── globals.css
-│ ├── layout.tsx
-│ └── page.tsx
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
 │
 ├── components/
-│ │
-│ ├── BackToTop.tsx
-│ ├── Brands.tsx
-│ ├── Categories.ts.tsx
-│ ├── FeaturedProducts.tsx
-│ ├── Features.tsx
-│ ├── Footer.tsx
-│ ├── Navbar.tsx
-│ ├── Newsletter.tsx
-│ ├── ProductCard.tsx
-│ ├── Reveal.tsx
-│ └── Testimonials.tsx
+│   ├── BackToTop.tsx
+│   ├── Brands.tsx
+│   ├── Categories.tsx
+│   ├── FeaturedProducts.tsx
+│   ├── Features.tsx
+│   ├── Footer.tsx
+│   ├── Navbar.tsx
+│   ├── Newsletter.tsx
+│   ├── ProductCard.tsx
+│   ├── Reveal.tsx
+│   └── Testimonials.tsx
 │
 ├── public/
-│ ├── images/
-│ └── assets
+│   └── assets/
 │
-├── node_modules/
-│
+├── .gitignore
 ├── package.json
 ├── package-lock.json
 ├── tsconfig.json
 ├── next.config.ts
 ├── tailwind.config.ts
 └── README.md
-
 
 ---
 
