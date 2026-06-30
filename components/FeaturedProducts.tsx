@@ -1,3 +1,4 @@
+import Reveal from "./Reveal";
 import ProductCard from "./ProductCard";
 
 const products = [
@@ -25,21 +26,23 @@ const products = [
 
 export default function FeaturedProducts() {
     return (
-        <section className="bg-black py-24 px-8">
-            <h2 className="text-5xl font-bold text-center text-white mb-16">
-                Featured Products
-            </h2>
+        <Reveal>
+            <section className="bg-black py-24 px-8">
+                <h2 className="text-5xl font-bold text-center text-white mb-16">
+                    Featured Products
+                </h2>
 
-            <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                {products.map((product) => (
-                    <ProductCard
-                        key={product.name}
-                        name={product.name}
-                        price={product.price}
-                        image={product.image}
-                    />
-                ))}
-            </div>
-        </section>
+                <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    {products.map((product) => (
+                        <ProductCard
+                            key={product.name}
+                            name={product.name}
+                            price={product.price}
+                            image={product.image}
+                        />
+                    ))}
+                </div>
+            </section>
+        </Reveal>
     );
 }
