@@ -29,7 +29,7 @@ The project focuses on a clean UI, reusable components, smooth animations, and a
 
 ---
 
-## 📂 Project Structure
+
 
 
 ## 📂 Project Structure
