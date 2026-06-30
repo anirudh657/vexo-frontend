@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VEXO Frontend 🚀
 
-## Getting Started
+A modern and responsive e-commerce frontend built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+The project focuses on a clean UI, reusable components, smooth animations, and an optimized user experience.
 
-First, run the development server:
+## ✨ Features
+
+- ⚡ Built with Next.js
+- 🎨 Modern responsive UI
+- 📱 Mobile-friendly design
+- 🧩 Reusable React components
+- 🔥 Smooth scroll animations
+- 🛒 Product showcase sections
+- 🏷️ Brand and category sections
+- ⭐ Customer testimonials
+- 📩 Newsletter subscription section
+- ⬆️ Back to top functionality
+- TypeScript support
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI:** React Components
+- **Package Manager:** npm
+
+---
+
+## 📂 Project Structure
+
+
+vexo-frontend/
+│
+├── app/
+│ ├── favicon.ico
+│ ├── globals.css
+│ ├── layout.tsx
+│ └── page.tsx
+│
+├── components/
+│ │
+│ ├── BackToTop.tsx
+│ ├── Brands.tsx
+│ ├── Categories.ts.tsx
+│ ├── FeaturedProducts.tsx
+│ ├── Features.tsx
+│ ├── Footer.tsx
+│ ├── Navbar.tsx
+│ ├── Newsletter.tsx
+│ ├── ProductCard.tsx
+│ ├── Reveal.tsx
+│ └── Testimonials.tsx
+│
+├── public/
+│ ├── images/
+│ └── assets
+│
+├── node_modules/
+│
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── next.config.ts
+├── tailwind.config.ts
+└── README.md
+
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
 
 ```bash
+git clone https://github.com/anirudh657/vexo-frontend.git
+
+Go into project folder:
+
+cd vexo-frontend
+
+Install dependencies:
+
+npm install
+▶️ Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+http://localhost:3000
+📦 Build for Production
+npm run build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start production server:
 
-## Learn More
+npm start
+🔄 Git Workflow
 
-To learn more about Next.js, take a look at the following resources:
+Update project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+git add .
+git commit -m "your message"
+git push
+📸 Project Sections
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The website includes:
 
-## Deploy on Vercel
+Navbar
+Hero section
+Categories
+Featured products
+Brand showcase
+Features section
+Testimonials
+Newsletter
+Footer
+Back-to-top button
+👨‍💻 Author
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Anirudh Arora
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+GitHub:
+https://github.com/anirudh657
+
+⭐ If you like this project, consider giving it a star!
+
+
+One small fix: in your actual folder you showed `components/Categories.tsx`, not `Categories.ts.tsx`, so change that line if needed.
